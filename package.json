@@ -9,7 +9,7 @@
         ["./configure"],
         "make"
     ],
-    "buildsInSource": "src/.lib",
+    "buildsInSource": "_build",
     "exportedEnv": {
         "LIBUIOHOOK_INCLUDE_PATH": {
             "val": "#{self.install / 'include' / 'libuiohook'}",
